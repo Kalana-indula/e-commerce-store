@@ -10,7 +10,7 @@ const HeroSection = () => {
                 <div className="absolute inset-0 bg-white/80"/>
 
                 {/* content */}
-                <div className="relative z-10 w-full px-4 sm:px-6 lg:px-10 py-10">
+                <div className="relative z-10 w-full px-4 sm:px-6 lg:px-10 py-10 mx-auto max-w-7xl">
                     <div className="flex w-full items-center justify-between flex-col gap-y-10 lg:flex-row lg:gap-y-0 lg:gap-x-10">
                         {/* Titles and description */}
                         <div className="flex flex-col gap-y-4 w-full lg:w-1/2 text-center lg:text-left">
