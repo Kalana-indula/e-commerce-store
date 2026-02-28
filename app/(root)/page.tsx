@@ -17,20 +17,25 @@ const page = () => {
                 <HeroSection/>
 
             {/*  Best products section  */}
-                <div className="my-8 mx-auto max-w-7xl">
-                    {/*Title*/}
-                    <div className="text-heading-3 flex justify-start px-4 sm:px-6 lg:px-10">
+                <div className="mx-auto max-w-7xl my-2 px-4 sm:px-6 lg:px-10">
+                    {/* Title */}
+                    <div className="text-heading-3 my-4">
                         Best of Air Max
                     </div>
-                {/*  Cards  */}
-                    <div className="flex justify-between px-10">
-                        {testData && testData.map((item)=>(
-                            <BestProductsCard key={item.productId}/>
+
+                    {/* Cards */}
+                    <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
+                        {testData?.map((item) => (
+                            <BestProductsCard key={item.productId} />
                         ))}
                     </div>
                 </div>
             {/*  Trending Now  */}
                 <div>
+
+                </div>
+            {/*   Bold & Sporty */}
+                <div className="mx-auto max-w-7xl bg-amber-400 h-[622px]">
 
                 </div>
             </div>

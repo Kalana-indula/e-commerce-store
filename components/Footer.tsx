@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="bg-dark-900 mt-20">
+        <footer className="bg-dark-900">
             {/* Upper part */}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10 py-10">
                 <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
