@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <header className="w-full">
             {/*dektop version*/}
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10 py-5 hidden md:block">
+            <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-10 py-5 hidden md:block">
                 <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                     {/* logo */}
                     <div className="shrink-0">
