@@ -1,12 +1,12 @@
 'use client'
 
-import HeroSection from "@/components/HeroSection";
-import BestProductsCard from "@/components/BestProductsCard";
+import HeroSection from "@/app/components/HeroSection";
+import BestProductsCard from "@/app/components/BestProductsCard";
 import {useState} from "react";
 import BestSellingProducts from "@/data/productData";
 import ProductData from "@/data/productData";
-import TrendingNow from "@/components/TrendingNow";
-import Featured from "@/components/Featured";
+import TrendingNow from "@/app/components/TrendingNow";
+import Featured from "@/app/components/Featured";
 
 const page = () => {
     // test data

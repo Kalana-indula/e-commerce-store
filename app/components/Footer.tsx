@@ -12,7 +12,7 @@ const Footer = () => {
                     {/* Logo + Social (responsive grouping) */}
                     <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between lg:block lg:min-w-[220px]">
                         {/* Logo */}
-                        <Link href="/" className="inline-block">
+                        <Link href="/public" className="inline-block">
                             <span className="sr-only">Home</span>
                             <div className="bg-white w-[100px] h-[48px] rounded" />
                         </Link>
@@ -20,7 +20,7 @@ const Footer = () => {
                         {/* Social links */}
                         <div className="flex items-center gap-4 lg:mt-8">
                             <Link
-                                href="/"
+                                href="/public"
                                 aria-label="X (Twitter)"
                                 className="bg-light-200 rounded-full p-2 hover:opacity-80 transition"
                             >
@@ -28,7 +28,7 @@ const Footer = () => {
                             </Link>
 
                             <Link
-                                href="/"
+                                href="/public"
                                 aria-label="Facebook"
                                 className="bg-light-200 rounded-full p-2 hover:opacity-80 transition"
                             >
@@ -36,7 +36,7 @@ const Footer = () => {
                             </Link>
 
                             <Link
-                                href="/"
+                                href="/public"
                                 aria-label="Instagram"
                                 className="bg-light-200 rounded-full p-2 hover:opacity-80 transition"
                             >
@@ -53,10 +53,10 @@ const Footer = () => {
                                 Featured
                             </div>
                             <ul className="text-dark-700 text-[14px] mt-3 flex flex-col gap-2">
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
                             </ul>
                         </div>
 
@@ -64,10 +64,10 @@ const Footer = () => {
                         <div>
                             <div className="text-light-100 font-semibold text-[16px]">Shoes</div>
                             <ul className="text-dark-700 text-[14px] mt-3 flex flex-col gap-2">
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
                             </ul>
                         </div>
 
@@ -77,10 +77,10 @@ const Footer = () => {
                                 Clothing
                             </div>
                             <ul className="text-dark-700 text-[14px] mt-3 flex flex-col gap-2">
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
                             </ul>
                         </div>
 
@@ -88,10 +88,10 @@ const Footer = () => {
                         <div>
                             <div className="text-light-100 font-semibold text-[16px]">Kid's</div>
                             <ul className="text-dark-700 text-[14px] mt-3 flex flex-col gap-2">
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
-                                <li><Link href="/" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
+                                <li><Link href="/public" className="hover:text-light-100 transition">Air Force 1</Link></li>
                             </ul>
                         </div>
                     </nav>
@@ -107,16 +107,16 @@ const Footer = () => {
 
                         {/* Site links (wrap on small screens) */}
                         <div className="flex flex-wrap gap-x-4 gap-y-2">
-                            <Link href="/" className="hover:text-light-100 transition">
+                            <Link href="/public" className="hover:text-light-100 transition">
                                 Guides
                             </Link>
-                            <Link href="/" className="hover:text-light-100 transition">
+                            <Link href="/public" className="hover:text-light-100 transition">
                                 Terms of Sale
                             </Link>
-                            <Link href="/" className="hover:text-light-100 transition">
+                            <Link href="/public" className="hover:text-light-100 transition">
                                 Terms of Use
                             </Link>
-                            <Link href="/" className="hover:text-light-100 transition">
+                            <Link href="/public" className="hover:text-light-100 transition">
                                 Privacy Policy
                             </Link>
                         </div>
